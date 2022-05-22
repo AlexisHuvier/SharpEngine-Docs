@@ -623,7 +623,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 44,
-          "skipped_file_count": 37
+          "skipped_file_count": 44
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
