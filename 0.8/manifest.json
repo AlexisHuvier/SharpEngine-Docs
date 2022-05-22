@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SharpEngine.Color.html",
-          "hash": "sPWiOg/OiCIWHWHEs7GwHV8AYPM1tGNWEAOiK538Wt0="
+          "hash": "bxatnLhlz4m6YCNH6/o6w45T5L4keBZTSHD1Tpawj2o="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SharpEngine.Components.Component.html",
-          "hash": "F3zdq/CksO8fhbb9GQ2wNQgLuQTh0rCXw72rOgZ8Sxs="
+          "hash": "zhnbsNEkp/EhQtyHD6dqtGo5Iwtdvq0XLuXqCaaropo="
         }
       },
       "is_incremental": false,
@@ -74,11 +74,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharpEngine.Components.ParticleComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpEngine.Components.ParticleComponent.html",
+          "hash": "2CeP1O49y/1lPAQWDYoK4A+TQat9MYEr8o01GFno5Cs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharpEngine.Components.PhysicsComponent.yml",
       "output": {
         ".html": {
           "relative_path": "api/SharpEngine.Components.PhysicsComponent.html",
-          "hash": "g69vbJ5mSBpwlzvYHGLBDzXlKipgojDo80J0FaTvapE="
+          "hash": "5oYS7EDrQnCKOHGAFE/QcLYkydBhpkvmwjCRPlEbTvs="
         }
       },
       "is_incremental": false,
@@ -102,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SharpEngine.Components.SpriteSheetComponent.html",
-          "hash": "25fbaVuMfstI8IgsykJA8I4kj59ZpSZoMqFCsnY1KS0="
+          "hash": "sNNOBbtEM8TYWn+PSX/GmoIlaF4aUbqfo5gtcLdeHWc="
         }
       },
       "is_incremental": false,
@@ -122,35 +134,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SharpEngine.Components.TileMapComponent.Layer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/SharpEngine.Components.TileMapComponent.Layer.html",
-          "hash": "/h4iILmVN1dEAxvintJ8vqkZ1FQruFEBh7Wzi2i0XRg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/SharpEngine.Components.TileMapComponent.Tile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/SharpEngine.Components.TileMapComponent.Tile.html",
-          "hash": "T50ZMBuZK0EFz4/BVw/yxZ4wuGZITxdvV3yHP3y2wqw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/SharpEngine.Components.TileMapComponent.yml",
       "output": {
         ".html": {
           "relative_path": "api/SharpEngine.Components.TileMapComponent.html",
-          "hash": "5/IwYv0jMltmKSmJw+QXfnjaPziamcG/kPTBVgzdriY="
+          "hash": "hf+n7jWksvyJFEuhidIfSVJl8i9u9wvIzsg8dNqjpi0="
         }
       },
       "is_incremental": false,
@@ -174,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SharpEngine.Components.html",
-          "hash": "LLK6+yrN9P277lY5YB92T19uq6cgeGmF4be3aFCM3Nc="
+          "hash": "a4+fSuEz7rEaZJAZA8NWysrmWsoJIo0zl+0knG527Mc="
         }
       },
       "is_incremental": false,
@@ -235,6 +223,18 @@
         ".html": {
           "relative_path": "api/SharpEngine.FontManager.html",
           "hash": "TI2W9K+u8OgB18+H642ilgyHtIb0vFg2BI0TTnWWXxw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpEngine.FullScreenType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpEngine.FullScreenType.html",
+          "hash": "boaLUMOR7egNCNUFys4ZikB9JK7B8ohSyuBMiBbp13g="
         }
       },
       "is_incremental": false,
@@ -314,6 +314,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharpEngine.Math.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpEngine.Math.html",
+          "hash": "rUzYdzcv7tAMexsbDOlstjC8qBVehMsVGJBpGQfrSvc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharpEngine.MusicManager.yml",
       "output": {
         ".html": {
@@ -386,11 +398,107 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharpEngine.Utils.ParticleUtils.Particle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpEngine.Utils.ParticleUtils.Particle.html",
+          "hash": "E3vbmPMeip96GeIhGXT3VXEReFzqVkPW9ZXw8GrLZLk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html",
+          "hash": "hjzjtabUXQHmWSgTDaWf2uYtWlG0/9pTmNb7taGA3S4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.html",
+          "hash": "meHKZABNBy2CV/l/TrIfFui8/IREWj3Gwu3trkNWdik="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpEngine.Utils.ParticleUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpEngine.Utils.ParticleUtils.html",
+          "hash": "tbyNfcq8BHtOrVNS1uZ20Sy7cm8vJSE5fEs+3DrxkDw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpEngine.Utils.TileUtils.Layer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpEngine.Utils.TileUtils.Layer.html",
+          "hash": "lVBSXGZE9+ipYmPKR0kBcNG0Mev+M/ZVzSXxaiVzSuU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpEngine.Utils.TileUtils.Tile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpEngine.Utils.TileUtils.Tile.html",
+          "hash": "7X6qka1MTgfsscIr9k5f7zX5gIvbR4OHYEBYIh0wS18="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpEngine.Utils.TileUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpEngine.Utils.TileUtils.html",
+          "hash": "3Ao99Li4WRm7u4pK/DKL0VMU5UzQ39NyYuBRUxoWNl8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpEngine.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpEngine.Utils.html",
+          "hash": "mKuxm/ClntUs9dxJp+TBm55xi2qqXVAJlWvgUZEM24s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharpEngine.Vec2.yml",
       "output": {
         ".html": {
           "relative_path": "api/SharpEngine.Vec2.html",
-          "hash": "+FeSGaE+PCXFoOr7pXCsCb3q7kor/zdpVENu9yd+CIg="
+          "hash": "nd4NBl8TNBzvbnrdaQ/PCeKfOkWwcznWBwnrkyroPsU="
         }
       },
       "is_incremental": false,
@@ -522,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SharpEngine.Window.html",
-          "hash": "7FMEXMT/0FDBGs2XGCmNacBJ6fmOjDokTojlxZaJUuw="
+          "hash": "paZUSU33FWmnuGLDeGhPJ5ejVvNxKnY/O1vxmTB1yps="
         }
       },
       "is_incremental": false,
@@ -534,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SharpEngine.html",
-          "hash": "N+51zOpaLbvJkYzsK18LYnkFGP4UqXQ585895+1TbiE="
+          "hash": "pgRsKjVjhW7y1yWdJ4CcSvvHV5iBF795POUz2R1L+1Y="
         }
       },
       "is_incremental": false,
@@ -546,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "y2MaPJFNr6zArjuiadVK5eG5ntrU2eWl7bYPlHBOi+M="
+          "hash": "it6dNJkb8hpDdq4/cQOkOGZ4U89sQyAnQa73dsx9jWk="
         }
       },
       "is_incremental": false,
@@ -622,8 +730,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 44,
-          "skipped_file_count": 44
+          "total_file_count": 53,
+          "skipped_file_count": 53
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

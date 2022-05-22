@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TileMapComponent
+    <title>Class ParticleUtils.Particle
    | SharpEngine Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TileMapComponent
+    <meta name="title" content="Class ParticleUtils.Particle
    | SharpEngine Docs ">
     <meta name="generator" content="docfx 2.58.4.0">
     
@@ -78,46 +78,20 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SharpEngine.Components.TileMapComponent">
+            <article class="content wrap" id="_content" data-uid="SharpEngine.Utils.ParticleUtils.Particle">
   
   
-  <h1 id="SharpEngine_Components_TileMapComponent" data-uid="SharpEngine.Components.TileMapComponent" class="text-break">Class TileMapComponent
+  <h1 id="SharpEngine_Utils_ParticleUtils_Particle" data-uid="SharpEngine.Utils.ParticleUtils.Particle" class="text-break">Class ParticleUtils.Particle
   </h1>
-  <div class="markdown level0 summary"><p>Composant qui affiche une tilemap de Tiled (.tmx)</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>H&#233;ritage</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="SharpEngine.Components.Component.html">Component</a></div>
-    <div class="level2"><span class="xref">TileMapComponent</span></div>
+    <div class="level1"><span class="xref">ParticleUtils.Particle</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Membres H&#233;rit&#233;s</h5>
-    <div>
-      <a class="xref" href="SharpEngine.Components.Component.html#SharpEngine_Components_Component_SetEntity_SharpEngine_Entity_">Component.SetEntity(Entity)</a>
-    </div>
-    <div>
-      <a class="xref" href="SharpEngine.Components.Component.html#SharpEngine_Components_Component_GetEntity">Component.GetEntity()</a>
-    </div>
-    <div>
-      <a class="xref" href="SharpEngine.Components.Component.html#SharpEngine_Components_Component_GetSpriteBatch">Component.GetSpriteBatch()</a>
-    </div>
-    <div>
-      <a class="xref" href="SharpEngine.Components.Component.html#SharpEngine_Components_Component_GetWindow">Component.GetWindow()</a>
-    </div>
-    <div>
-      <a class="xref" href="SharpEngine.Components.Component.html#SharpEngine_Components_Component_Initialize">Component.Initialize()</a>
-    </div>
-    <div>
-      <a class="xref" href="SharpEngine.Components.Component.html#SharpEngine_Components_Component_LoadContent">Component.LoadContent()</a>
-    </div>
-    <div>
-      <a class="xref" href="SharpEngine.Components.Component.html#SharpEngine_Components_Component_UnloadContent">Component.UnloadContent()</a>
-    </div>
-    <div>
-      <a class="xref" href="SharpEngine.Components.Component.html#SharpEngine_Components_Component_TextInput_System_Object_SharpEngine_Inputs_Key_System_Char_">Component.TextInput(Object, Key, Char)</a>
-    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -136,23 +110,25 @@
     <div>
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SharpEngine.Components.html">SharpEngine.Components</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharpEngine.Utils.html">SharpEngine.Utils</a></h6>
   <h6><strong>Assembly</strong>: SharpEngine.dll</h6>
-  <h5 id="SharpEngine_Components_TileMapComponent_syntax">Syntaxe</h5>
+  <h5 id="SharpEngine_Utils_ParticleUtils_Particle_syntax">Syntaxe</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TileMapComponent : Component</code></pre>
+    <pre><code class="lang-csharp hljs">public class Particle</code></pre>
   </div>
   <h3 id="constructors">Constructeurs
   </h3>
-  <a id="SharpEngine_Components_TileMapComponent__ctor_" data-uid="SharpEngine.Components.TileMapComponent.#ctor*"></a>
-  <h4 id="SharpEngine_Components_TileMapComponent__ctor_System_String_" data-uid="SharpEngine.Components.TileMapComponent.#ctor(System.String)">TileMapComponent(String)</h4>
-  <div class="markdown level1 summary"><p>Initialise le Composant.</p>
-</div>
+  <a id="SharpEngine_Utils_ParticleUtils_Particle__ctor_" data-uid="SharpEngine.Utils.ParticleUtils.Particle.#ctor*"></a>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle__ctor_SharpEngine_Vec2_SharpEngine_Vec2_SharpEngine_Vec2_System_Single_System_Single_System_Single_System_Single_SharpEngine_Color_SharpEngine_Color_SharpEngine_Utils_ParticleUtils_ParticleParametersFunction_System_Single_" data-uid="SharpEngine.Utils.ParticleUtils.Particle.#ctor(SharpEngine.Vec2,SharpEngine.Vec2,SharpEngine.Vec2,System.Single,System.Single,System.Single,System.Single,SharpEngine.Color,SharpEngine.Color,SharpEngine.Utils.ParticleUtils.ParticleParametersFunction,System.Single)">Particle(Vec2, Vec2, Vec2, Single, Single, Single, Single, Color, Color, ParticleUtils.ParticleParametersFunction, Single)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">D&#233;claration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TileMapComponent(string tilemap)</code></pre>
+    <pre><code class="lang-csharp hljs">public Particle(Vec2 position, Vec2 velocity, Vec2 acceleration, float lifetime, float size, float rotation, float rotationSpeed, Color beginColor, Color endColor, ParticleUtils.ParticleParametersFunction sizeFunction = ParticleUtils.ParticleParametersFunction.NORMAL, float sizeFunctionValue = 0F)</code></pre>
   </div>
   <h5 class="parameters">Param&#232;tres</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,124 +141,70 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">tilemap</span></td>
-        <td><p>Chemin vers la tilemap</p>
-</td>
+        <td><a class="xref" href="SharpEngine.Vec2.html">Vec2</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
       </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Condition</th>
+        <td><a class="xref" href="SharpEngine.Vec2.html">Vec2</a></td>
+        <td><span class="parametername">velocity</span></td>
+        <td></td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
-        <td><span class="xref">System.Exception</span></td>
+        <td><a class="xref" href="SharpEngine.Vec2.html">Vec2</a></td>
+        <td><span class="parametername">acceleration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">lifetime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">rotationSpeed</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharpEngine.Color.html">Color</a></td>
+        <td><span class="parametername">beginColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharpEngine.Color.html">Color</a></td>
+        <td><span class="parametername">endColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.html">ParticleUtils.ParticleParametersFunction</a></td>
+        <td><span class="parametername">sizeFunction</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">sizeFunctionValue</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="fields">Champs
   </h3>
-  <h4 id="SharpEngine_Components_TileMapComponent_infinite" data-uid="SharpEngine.Components.TileMapComponent.infinite">infinite</h4>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_acceleration" data-uid="SharpEngine.Utils.ParticleUtils.Particle.acceleration">acceleration</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">D&#233;claration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool infinite</code></pre>
-  </div>
-  <h5 class="fieldValue">Valeur de Champ</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="SharpEngine_Components_TileMapComponent_layers" data-uid="SharpEngine.Components.TileMapComponent.layers">layers</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">D&#233;claration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected List&lt;TileUtils.Layer&gt; layers</code></pre>
-  </div>
-  <h5 class="fieldValue">Valeur de Champ</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="SharpEngine.Utils.TileUtils.Layer.html">TileUtils.Layer</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="SharpEngine_Components_TileMapComponent_orientation" data-uid="SharpEngine.Components.TileMapComponent.orientation">orientation</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">D&#233;claration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected string orientation</code></pre>
-  </div>
-  <h5 class="fieldValue">Valeur de Champ</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="SharpEngine_Components_TileMapComponent_renderorder" data-uid="SharpEngine.Components.TileMapComponent.renderorder">renderorder</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">D&#233;claration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected string renderorder</code></pre>
-  </div>
-  <h5 class="fieldValue">Valeur de Champ</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="SharpEngine_Components_TileMapComponent_size" data-uid="SharpEngine.Components.TileMapComponent.size">size</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">D&#233;claration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Vec2 size</code></pre>
+    <pre><code class="lang-csharp hljs">public Vec2 acceleration</code></pre>
   </div>
   <h5 class="fieldValue">Valeur de Champ</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -299,12 +221,12 @@
       </tr>
     </tbody>
   </table>
-  <h4 id="SharpEngine_Components_TileMapComponent_textures" data-uid="SharpEngine.Components.TileMapComponent.textures">textures</h4>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_beginColor" data-uid="SharpEngine.Utils.ParticleUtils.Particle.beginColor">beginColor</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">D&#233;claration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected List&lt;string&gt; textures</code></pre>
+    <pre><code class="lang-csharp hljs">public Color beginColor</code></pre>
   </div>
   <h5 class="fieldValue">Valeur de Champ</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -316,17 +238,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><a class="xref" href="SharpEngine.Color.html">Color</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h4 id="SharpEngine_Components_TileMapComponent_tiles" data-uid="SharpEngine.Components.TileMapComponent.tiles">tiles</h4>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_currentColor" data-uid="SharpEngine.Utils.ParticleUtils.Particle.currentColor">currentColor</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">D&#233;claration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected List&lt;TileUtils.Tile&gt; tiles</code></pre>
+    <pre><code class="lang-csharp hljs">public Color currentColor</code></pre>
   </div>
   <h5 class="fieldValue">Valeur de Champ</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -338,17 +260,237 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="SharpEngine.Utils.TileUtils.Tile.html">TileUtils.Tile</a>&gt;</td>
+        <td><a class="xref" href="SharpEngine.Color.html">Color</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h4 id="SharpEngine_Components_TileMapComponent_tileSize" data-uid="SharpEngine.Components.TileMapComponent.tileSize">tileSize</h4>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_endColor" data-uid="SharpEngine.Utils.ParticleUtils.Particle.endColor">endColor</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">D&#233;claration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Vec2 tileSize</code></pre>
+    <pre><code class="lang-csharp hljs">public Color endColor</code></pre>
+  </div>
+  <h5 class="fieldValue">Valeur de Champ</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpEngine.Color.html">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_lifetime" data-uid="SharpEngine.Utils.ParticleUtils.Particle.lifetime">lifetime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">D&#233;claration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float lifetime</code></pre>
+  </div>
+  <h5 class="fieldValue">Valeur de Champ</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_maxSize" data-uid="SharpEngine.Utils.ParticleUtils.Particle.maxSize">maxSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">D&#233;claration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float maxSize</code></pre>
+  </div>
+  <h5 class="fieldValue">Valeur de Champ</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_position" data-uid="SharpEngine.Utils.ParticleUtils.Particle.position">position</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">D&#233;claration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vec2 position</code></pre>
+  </div>
+  <h5 class="fieldValue">Valeur de Champ</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpEngine.Vec2.html">Vec2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_rotation" data-uid="SharpEngine.Utils.ParticleUtils.Particle.rotation">rotation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">D&#233;claration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float rotation</code></pre>
+  </div>
+  <h5 class="fieldValue">Valeur de Champ</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_rotationSpeed" data-uid="SharpEngine.Utils.ParticleUtils.Particle.rotationSpeed">rotationSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">D&#233;claration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float rotationSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Valeur de Champ</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_size" data-uid="SharpEngine.Utils.ParticleUtils.Particle.size">size</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">D&#233;claration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float size</code></pre>
+  </div>
+  <h5 class="fieldValue">Valeur de Champ</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_sizeFunction" data-uid="SharpEngine.Utils.ParticleUtils.Particle.sizeFunction">sizeFunction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">D&#233;claration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParticleUtils.ParticleParametersFunction sizeFunction</code></pre>
+  </div>
+  <h5 class="fieldValue">Valeur de Champ</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.html">ParticleUtils.ParticleParametersFunction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_sizeFunctionValue" data-uid="SharpEngine.Utils.ParticleUtils.Particle.sizeFunctionValue">sizeFunctionValue</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">D&#233;claration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float sizeFunctionValue</code></pre>
+  </div>
+  <h5 class="fieldValue">Valeur de Champ</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_timeSinceStart" data-uid="SharpEngine.Utils.ParticleUtils.Particle.timeSinceStart">timeSinceStart</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">D&#233;claration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float timeSinceStart</code></pre>
+  </div>
+  <h5 class="fieldValue">Valeur de Champ</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_velocity" data-uid="SharpEngine.Utils.ParticleUtils.Particle.velocity">velocity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">D&#233;claration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vec2 velocity</code></pre>
   </div>
   <h5 class="fieldValue">Valeur de Champ</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -367,13 +509,38 @@
   </table>
   <h3 id="methods">M&#233;thodes
   </h3>
-  <a id="SharpEngine_Components_TileMapComponent_Draw_" data-uid="SharpEngine.Components.TileMapComponent.Draw*"></a>
-  <h4 id="SharpEngine_Components_TileMapComponent_Draw_SharpEngine_GameTime_" data-uid="SharpEngine.Components.TileMapComponent.Draw(SharpEngine.GameTime)">Draw(GameTime)</h4>
+  <a id="SharpEngine_Utils_ParticleUtils_Particle_Draw_" data-uid="SharpEngine.Utils.ParticleUtils.Particle.Draw*"></a>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_Draw_SharpEngine_Window_" data-uid="SharpEngine.Utils.ParticleUtils.Particle.Draw(SharpEngine.Window)">Draw(Window)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">D&#233;claration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Draw(GameTime gameTime)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Draw(Window window)</code></pre>
+  </div>
+  <h5 class="parameters">Param&#232;tres</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Nom</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpEngine.Window.html">Window</a></td>
+        <td><span class="parametername">window</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="SharpEngine_Utils_ParticleUtils_Particle_Update_" data-uid="SharpEngine.Utils.ParticleUtils.Particle.Update*"></a>
+  <h4 id="SharpEngine_Utils_ParticleUtils_Particle_Update_SharpEngine_GameTime_" data-uid="SharpEngine.Utils.ParticleUtils.Particle.Update(SharpEngine.GameTime)">Update(GameTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">D&#233;claration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update(GameTime gameTime)</code></pre>
   </div>
   <h5 class="parameters">Param&#232;tres</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -392,100 +559,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Surcharge</h5>
-  <div><a class="xref" href="SharpEngine.Components.Component.html#SharpEngine_Components_Component_Draw_SharpEngine_GameTime_">Component.Draw(GameTime)</a></div>
-  <a id="SharpEngine_Components_TileMapComponent_GetTile_" data-uid="SharpEngine.Components.TileMapComponent.GetTile*"></a>
-  <h4 id="SharpEngine_Components_TileMapComponent_GetTile_System_Int32_" data-uid="SharpEngine.Components.TileMapComponent.GetTile(System.Int32)">GetTile(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">D&#233;claration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TileUtils.Tile GetTile(int id)</code></pre>
-  </div>
-  <h5 class="parameters">Param&#232;tres</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Nom</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">id</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Retourne</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SharpEngine.Utils.TileUtils.Tile.html">TileUtils.Tile</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="SharpEngine_Components_TileMapComponent_ToString_" data-uid="SharpEngine.Components.TileMapComponent.ToString*"></a>
-  <h4 id="SharpEngine_Components_TileMapComponent_ToString" data-uid="SharpEngine.Components.TileMapComponent.ToString">ToString()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">D&#233;claration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
-  </div>
-  <h5 class="returns">Retourne</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Surcharge</h5>
-  <div><span class="xref">System.Object.ToString()</span></div>
-  <a id="SharpEngine_Components_TileMapComponent_Update_" data-uid="SharpEngine.Components.TileMapComponent.Update*"></a>
-  <h4 id="SharpEngine_Components_TileMapComponent_Update_SharpEngine_GameTime_" data-uid="SharpEngine.Components.TileMapComponent.Update(SharpEngine.GameTime)">Update(GameTime)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">D&#233;claration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Update(GameTime gameTime)</code></pre>
-  </div>
-  <h5 class="parameters">Param&#232;tres</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Nom</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SharpEngine.GameTime.html">GameTime</a></td>
-        <td><span class="parametername">gameTime</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Surcharge</h5>
-  <div><a class="xref" href="SharpEngine.Components.Component.html#SharpEngine_Components_Component_Update_SharpEngine_GameTime_">Component.Update(GameTime)</a></div>
 </article>
           </div>
           

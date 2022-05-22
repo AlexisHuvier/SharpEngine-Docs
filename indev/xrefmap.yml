@@ -341,6 +341,19 @@ references:
   commentId: F:SharpEngine.Color.DODGER_BLUE
   fullName: SharpEngine.Color.DODGER_BLUE
   nameWithType: Color.DODGER_BLUE
+- uid: SharpEngine.Color.Equals(System.Object)
+  name: Equals(Object)
+  href: api/SharpEngine.Color.html#SharpEngine_Color_Equals_System_Object_
+  commentId: M:SharpEngine.Color.Equals(System.Object)
+  fullName: SharpEngine.Color.Equals(System.Object)
+  nameWithType: Color.Equals(Object)
+- uid: SharpEngine.Color.Equals*
+  name: Equals
+  href: api/SharpEngine.Color.html#SharpEngine_Color_Equals_
+  commentId: Overload:SharpEngine.Color.Equals
+  isSpec: "True"
+  fullName: SharpEngine.Color.Equals
+  nameWithType: Color.Equals
 - uid: SharpEngine.Color.FIREBRICK
   name: FIREBRICK
   href: api/SharpEngine.Color.html#SharpEngine_Color_FIREBRICK
@@ -384,6 +397,32 @@ references:
   commentId: F:SharpEngine.Color.GAINSBORO
   fullName: SharpEngine.Color.GAINSBORO
   nameWithType: Color.GAINSBORO
+- uid: SharpEngine.Color.GetColorBetween(SharpEngine.Color,SharpEngine.Color,System.Single,System.Single)
+  name: GetColorBetween(Color, Color, Single, Single)
+  href: api/SharpEngine.Color.html#SharpEngine_Color_GetColorBetween_SharpEngine_Color_SharpEngine_Color_System_Single_System_Single_
+  commentId: M:SharpEngine.Color.GetColorBetween(SharpEngine.Color,SharpEngine.Color,System.Single,System.Single)
+  fullName: SharpEngine.Color.GetColorBetween(SharpEngine.Color, SharpEngine.Color, System.Single, System.Single)
+  nameWithType: Color.GetColorBetween(Color, Color, Single, Single)
+- uid: SharpEngine.Color.GetColorBetween*
+  name: GetColorBetween
+  href: api/SharpEngine.Color.html#SharpEngine_Color_GetColorBetween_
+  commentId: Overload:SharpEngine.Color.GetColorBetween
+  isSpec: "True"
+  fullName: SharpEngine.Color.GetColorBetween
+  nameWithType: Color.GetColorBetween
+- uid: SharpEngine.Color.GetHashCode
+  name: GetHashCode()
+  href: api/SharpEngine.Color.html#SharpEngine_Color_GetHashCode
+  commentId: M:SharpEngine.Color.GetHashCode
+  fullName: SharpEngine.Color.GetHashCode()
+  nameWithType: Color.GetHashCode()
+- uid: SharpEngine.Color.GetHashCode*
+  name: GetHashCode
+  href: api/SharpEngine.Color.html#SharpEngine_Color_GetHashCode_
+  commentId: Overload:SharpEngine.Color.GetHashCode
+  isSpec: "True"
+  fullName: SharpEngine.Color.GetHashCode
+  nameWithType: Color.GetHashCode
 - uid: SharpEngine.Color.GHOST_WHITE
   name: GHOST_WHITE
   href: api/SharpEngine.Color.html#SharpEngine_Color_GHOST_WHITE
@@ -696,6 +735,32 @@ references:
   commentId: F:SharpEngine.Color.OLIVE_DRAB
   fullName: SharpEngine.Color.OLIVE_DRAB
   nameWithType: Color.OLIVE_DRAB
+- uid: SharpEngine.Color.op_Equality(SharpEngine.Color,SharpEngine.Color)
+  name: Equality(Color, Color)
+  href: api/SharpEngine.Color.html#SharpEngine_Color_op_Equality_SharpEngine_Color_SharpEngine_Color_
+  commentId: M:SharpEngine.Color.op_Equality(SharpEngine.Color,SharpEngine.Color)
+  fullName: SharpEngine.Color.Equality(SharpEngine.Color, SharpEngine.Color)
+  nameWithType: Color.Equality(Color, Color)
+- uid: SharpEngine.Color.op_Equality*
+  name: Equality
+  href: api/SharpEngine.Color.html#SharpEngine_Color_op_Equality_
+  commentId: Overload:SharpEngine.Color.op_Equality
+  isSpec: "True"
+  fullName: SharpEngine.Color.Equality
+  nameWithType: Color.Equality
+- uid: SharpEngine.Color.op_Inequality(SharpEngine.Color,SharpEngine.Color)
+  name: Inequality(Color, Color)
+  href: api/SharpEngine.Color.html#SharpEngine_Color_op_Inequality_SharpEngine_Color_SharpEngine_Color_
+  commentId: M:SharpEngine.Color.op_Inequality(SharpEngine.Color,SharpEngine.Color)
+  fullName: SharpEngine.Color.Inequality(SharpEngine.Color, SharpEngine.Color)
+  nameWithType: Color.Inequality(Color, Color)
+- uid: SharpEngine.Color.op_Inequality*
+  name: Inequality
+  href: api/SharpEngine.Color.html#SharpEngine_Color_op_Inequality_
+  commentId: Overload:SharpEngine.Color.op_Inequality
+  isSpec: "True"
+  fullName: SharpEngine.Color.Inequality
+  nameWithType: Color.Inequality
 - uid: SharpEngine.Color.ORANGE
   name: ORANGE
   href: api/SharpEngine.Color.html#SharpEngine_Color_ORANGE
@@ -1300,24 +1365,89 @@ references:
   isSpec: "True"
   fullName: SharpEngine.Components.ControlComponent.Update
   nameWithType: ControlComponent.Update
+- uid: SharpEngine.Components.ParticleComponent
+  name: ParticleComponent
+  href: api/SharpEngine.Components.ParticleComponent.html
+  commentId: T:SharpEngine.Components.ParticleComponent
+  fullName: SharpEngine.Components.ParticleComponent
+  nameWithType: ParticleComponent
+- uid: SharpEngine.Components.ParticleComponent.#ctor
+  name: ParticleComponent()
+  href: api/SharpEngine.Components.ParticleComponent.html#SharpEngine_Components_ParticleComponent__ctor
+  commentId: M:SharpEngine.Components.ParticleComponent.#ctor
+  fullName: SharpEngine.Components.ParticleComponent.ParticleComponent()
+  nameWithType: ParticleComponent.ParticleComponent()
+- uid: SharpEngine.Components.ParticleComponent.#ctor*
+  name: ParticleComponent
+  href: api/SharpEngine.Components.ParticleComponent.html#SharpEngine_Components_ParticleComponent__ctor_
+  commentId: Overload:SharpEngine.Components.ParticleComponent.#ctor
+  isSpec: "True"
+  fullName: SharpEngine.Components.ParticleComponent.ParticleComponent
+  nameWithType: ParticleComponent.ParticleComponent
+- uid: SharpEngine.Components.ParticleComponent.AddEmitter(SharpEngine.Utils.ParticleUtils.ParticleEmitter)
+  name: AddEmitter(ParticleUtils.ParticleEmitter)
+  href: api/SharpEngine.Components.ParticleComponent.html#SharpEngine_Components_ParticleComponent_AddEmitter_SharpEngine_Utils_ParticleUtils_ParticleEmitter_
+  commentId: M:SharpEngine.Components.ParticleComponent.AddEmitter(SharpEngine.Utils.ParticleUtils.ParticleEmitter)
+  fullName: SharpEngine.Components.ParticleComponent.AddEmitter(SharpEngine.Utils.ParticleUtils.ParticleEmitter)
+  nameWithType: ParticleComponent.AddEmitter(ParticleUtils.ParticleEmitter)
+- uid: SharpEngine.Components.ParticleComponent.AddEmitter*
+  name: AddEmitter
+  href: api/SharpEngine.Components.ParticleComponent.html#SharpEngine_Components_ParticleComponent_AddEmitter_
+  commentId: Overload:SharpEngine.Components.ParticleComponent.AddEmitter
+  isSpec: "True"
+  fullName: SharpEngine.Components.ParticleComponent.AddEmitter
+  nameWithType: ParticleComponent.AddEmitter
+- uid: SharpEngine.Components.ParticleComponent.Draw(SharpEngine.GameTime)
+  name: Draw(GameTime)
+  href: api/SharpEngine.Components.ParticleComponent.html#SharpEngine_Components_ParticleComponent_Draw_SharpEngine_GameTime_
+  commentId: M:SharpEngine.Components.ParticleComponent.Draw(SharpEngine.GameTime)
+  fullName: SharpEngine.Components.ParticleComponent.Draw(SharpEngine.GameTime)
+  nameWithType: ParticleComponent.Draw(GameTime)
+- uid: SharpEngine.Components.ParticleComponent.Draw*
+  name: Draw
+  href: api/SharpEngine.Components.ParticleComponent.html#SharpEngine_Components_ParticleComponent_Draw_
+  commentId: Overload:SharpEngine.Components.ParticleComponent.Draw
+  isSpec: "True"
+  fullName: SharpEngine.Components.ParticleComponent.Draw
+  nameWithType: ParticleComponent.Draw
+- uid: SharpEngine.Components.ParticleComponent.GetEmitters
+  name: GetEmitters()
+  href: api/SharpEngine.Components.ParticleComponent.html#SharpEngine_Components_ParticleComponent_GetEmitters
+  commentId: M:SharpEngine.Components.ParticleComponent.GetEmitters
+  fullName: SharpEngine.Components.ParticleComponent.GetEmitters()
+  nameWithType: ParticleComponent.GetEmitters()
+- uid: SharpEngine.Components.ParticleComponent.GetEmitters*
+  name: GetEmitters
+  href: api/SharpEngine.Components.ParticleComponent.html#SharpEngine_Components_ParticleComponent_GetEmitters_
+  commentId: Overload:SharpEngine.Components.ParticleComponent.GetEmitters
+  isSpec: "True"
+  fullName: SharpEngine.Components.ParticleComponent.GetEmitters
+  nameWithType: ParticleComponent.GetEmitters
+- uid: SharpEngine.Components.ParticleComponent.Update(SharpEngine.GameTime)
+  name: Update(GameTime)
+  href: api/SharpEngine.Components.ParticleComponent.html#SharpEngine_Components_ParticleComponent_Update_SharpEngine_GameTime_
+  commentId: M:SharpEngine.Components.ParticleComponent.Update(SharpEngine.GameTime)
+  fullName: SharpEngine.Components.ParticleComponent.Update(SharpEngine.GameTime)
+  nameWithType: ParticleComponent.Update(GameTime)
+- uid: SharpEngine.Components.ParticleComponent.Update*
+  name: Update
+  href: api/SharpEngine.Components.ParticleComponent.html#SharpEngine_Components_ParticleComponent_Update_
+  commentId: Overload:SharpEngine.Components.ParticleComponent.Update
+  isSpec: "True"
+  fullName: SharpEngine.Components.ParticleComponent.Update
+  nameWithType: ParticleComponent.Update
 - uid: SharpEngine.Components.PhysicsComponent
   name: PhysicsComponent
   href: api/SharpEngine.Components.PhysicsComponent.html
   commentId: T:SharpEngine.Components.PhysicsComponent
   fullName: SharpEngine.Components.PhysicsComponent
   nameWithType: PhysicsComponent
-- uid: SharpEngine.Components.PhysicsComponent.#ctor(SharpEngine.Vec2,System.Single,System.Single,System.Single,tainicom.Aether.Physics2D.Dynamics.BodyType)
-  name: PhysicsComponent(Vec2, Single, Single, Single, BodyType)
-  href: api/SharpEngine.Components.PhysicsComponent.html#SharpEngine_Components_PhysicsComponent__ctor_SharpEngine_Vec2_System_Single_System_Single_System_Single_tainicom_Aether_Physics2D_Dynamics_BodyType_
-  commentId: M:SharpEngine.Components.PhysicsComponent.#ctor(SharpEngine.Vec2,System.Single,System.Single,System.Single,tainicom.Aether.Physics2D.Dynamics.BodyType)
-  fullName: SharpEngine.Components.PhysicsComponent.PhysicsComponent(SharpEngine.Vec2, System.Single, System.Single, System.Single, tainicom.Aether.Physics2D.Dynamics.BodyType)
-  nameWithType: PhysicsComponent.PhysicsComponent(Vec2, Single, Single, Single, BodyType)
-- uid: SharpEngine.Components.PhysicsComponent.#ctor(System.Single,System.Single,System.Single,System.Single,tainicom.Aether.Physics2D.Dynamics.BodyType)
-  name: PhysicsComponent(Single, Single, Single, Single, BodyType)
-  href: api/SharpEngine.Components.PhysicsComponent.html#SharpEngine_Components_PhysicsComponent__ctor_System_Single_System_Single_System_Single_System_Single_tainicom_Aether_Physics2D_Dynamics_BodyType_
-  commentId: M:SharpEngine.Components.PhysicsComponent.#ctor(System.Single,System.Single,System.Single,System.Single,tainicom.Aether.Physics2D.Dynamics.BodyType)
-  fullName: SharpEngine.Components.PhysicsComponent.PhysicsComponent(System.Single, System.Single, System.Single, System.Single, tainicom.Aether.Physics2D.Dynamics.BodyType)
-  nameWithType: PhysicsComponent.PhysicsComponent(Single, Single, Single, Single, BodyType)
+- uid: SharpEngine.Components.PhysicsComponent.#ctor(tainicom.Aether.Physics2D.Dynamics.BodyType)
+  name: PhysicsComponent(BodyType)
+  href: api/SharpEngine.Components.PhysicsComponent.html#SharpEngine_Components_PhysicsComponent__ctor_tainicom_Aether_Physics2D_Dynamics_BodyType_
+  commentId: M:SharpEngine.Components.PhysicsComponent.#ctor(tainicom.Aether.Physics2D.Dynamics.BodyType)
+  fullName: SharpEngine.Components.PhysicsComponent.PhysicsComponent(tainicom.Aether.Physics2D.Dynamics.BodyType)
+  nameWithType: PhysicsComponent.PhysicsComponent(BodyType)
 - uid: SharpEngine.Components.PhysicsComponent.#ctor*
   name: PhysicsComponent
   href: api/SharpEngine.Components.PhysicsComponent.html#SharpEngine_Components_PhysicsComponent__ctor_
@@ -1325,6 +1455,32 @@ references:
   isSpec: "True"
   fullName: SharpEngine.Components.PhysicsComponent.PhysicsComponent
   nameWithType: PhysicsComponent.PhysicsComponent
+- uid: SharpEngine.Components.PhysicsComponent.AddCircleCollision(System.Single,SharpEngine.Vec2,System.Single,System.Single,System.Single)
+  name: AddCircleCollision(Single, Vec2, Single, Single, Single)
+  href: api/SharpEngine.Components.PhysicsComponent.html#SharpEngine_Components_PhysicsComponent_AddCircleCollision_System_Single_SharpEngine_Vec2_System_Single_System_Single_System_Single_
+  commentId: M:SharpEngine.Components.PhysicsComponent.AddCircleCollision(System.Single,SharpEngine.Vec2,System.Single,System.Single,System.Single)
+  fullName: SharpEngine.Components.PhysicsComponent.AddCircleCollision(System.Single, SharpEngine.Vec2, System.Single, System.Single, System.Single)
+  nameWithType: PhysicsComponent.AddCircleCollision(Single, Vec2, Single, Single, Single)
+- uid: SharpEngine.Components.PhysicsComponent.AddCircleCollision*
+  name: AddCircleCollision
+  href: api/SharpEngine.Components.PhysicsComponent.html#SharpEngine_Components_PhysicsComponent_AddCircleCollision_
+  commentId: Overload:SharpEngine.Components.PhysicsComponent.AddCircleCollision
+  isSpec: "True"
+  fullName: SharpEngine.Components.PhysicsComponent.AddCircleCollision
+  nameWithType: PhysicsComponent.AddCircleCollision
+- uid: SharpEngine.Components.PhysicsComponent.AddRectangleCollision(SharpEngine.Vec2,SharpEngine.Vec2,System.Single,System.Single,System.Single)
+  name: AddRectangleCollision(Vec2, Vec2, Single, Single, Single)
+  href: api/SharpEngine.Components.PhysicsComponent.html#SharpEngine_Components_PhysicsComponent_AddRectangleCollision_SharpEngine_Vec2_SharpEngine_Vec2_System_Single_System_Single_System_Single_
+  commentId: M:SharpEngine.Components.PhysicsComponent.AddRectangleCollision(SharpEngine.Vec2,SharpEngine.Vec2,System.Single,System.Single,System.Single)
+  fullName: SharpEngine.Components.PhysicsComponent.AddRectangleCollision(SharpEngine.Vec2, SharpEngine.Vec2, System.Single, System.Single, System.Single)
+  nameWithType: PhysicsComponent.AddRectangleCollision(Vec2, Vec2, Single, Single, Single)
+- uid: SharpEngine.Components.PhysicsComponent.AddRectangleCollision*
+  name: AddRectangleCollision
+  href: api/SharpEngine.Components.PhysicsComponent.html#SharpEngine_Components_PhysicsComponent_AddRectangleCollision_
+  commentId: Overload:SharpEngine.Components.PhysicsComponent.AddRectangleCollision
+  isSpec: "True"
+  fullName: SharpEngine.Components.PhysicsComponent.AddRectangleCollision
+  nameWithType: PhysicsComponent.AddRectangleCollision
 - uid: SharpEngine.Components.PhysicsComponent.body
   name: body
   href: api/SharpEngine.Components.PhysicsComponent.html#SharpEngine_Components_PhysicsComponent_body
@@ -1370,12 +1526,6 @@ references:
   isSpec: "True"
   fullName: SharpEngine.Components.PhysicsComponent.Initialize
   nameWithType: PhysicsComponent.Initialize
-- uid: SharpEngine.Components.PhysicsComponent.parameters
-  name: parameters
-  href: api/SharpEngine.Components.PhysicsComponent.html#SharpEngine_Components_PhysicsComponent_parameters
-  commentId: F:SharpEngine.Components.PhysicsComponent.parameters
-  fullName: SharpEngine.Components.PhysicsComponent.parameters
-  nameWithType: PhysicsComponent.parameters
 - uid: SharpEngine.Components.PhysicsComponent.SetPosition(SharpEngine.Vec2)
   name: SetPosition(Vec2)
   href: api/SharpEngine.Components.PhysicsComponent.html#SharpEngine_Components_PhysicsComponent_SetPosition_SharpEngine_Vec2_
@@ -1415,12 +1565,6 @@ references:
   isSpec: "True"
   fullName: SharpEngine.Components.PhysicsComponent.ToString
   nameWithType: PhysicsComponent.ToString
-- uid: SharpEngine.Components.PhysicsComponent.type
-  name: type
-  href: api/SharpEngine.Components.PhysicsComponent.html#SharpEngine_Components_PhysicsComponent_type
-  commentId: F:SharpEngine.Components.PhysicsComponent.type
-  fullName: SharpEngine.Components.PhysicsComponent.type
-  nameWithType: PhysicsComponent.type
 - uid: SharpEngine.Components.PhysicsComponent.Update(SharpEngine.GameTime)
   name: Update(GameTime)
   href: api/SharpEngine.Components.PhysicsComponent.html#SharpEngine_Components_PhysicsComponent_Update_SharpEngine_GameTime_
@@ -1588,6 +1732,19 @@ references:
   commentId: F:SharpEngine.Components.SpriteSheetComponent.timer
   fullName: SharpEngine.Components.SpriteSheetComponent.timer
   nameWithType: SpriteSheetComponent.timer
+- uid: SharpEngine.Components.SpriteSheetComponent.ToString
+  name: ToString()
+  href: api/SharpEngine.Components.SpriteSheetComponent.html#SharpEngine_Components_SpriteSheetComponent_ToString
+  commentId: M:SharpEngine.Components.SpriteSheetComponent.ToString
+  fullName: SharpEngine.Components.SpriteSheetComponent.ToString()
+  nameWithType: SpriteSheetComponent.ToString()
+- uid: SharpEngine.Components.SpriteSheetComponent.ToString*
+  name: ToString
+  href: api/SharpEngine.Components.SpriteSheetComponent.html#SharpEngine_Components_SpriteSheetComponent_ToString_
+  commentId: Overload:SharpEngine.Components.SpriteSheetComponent.ToString
+  isSpec: "True"
+  fullName: SharpEngine.Components.SpriteSheetComponent.ToString
+  nameWithType: SpriteSheetComponent.ToString
 - uid: SharpEngine.Components.SpriteSheetComponent.Update(SharpEngine.GameTime)
   name: Update(GameTime)
   href: api/SharpEngine.Components.SpriteSheetComponent.html#SharpEngine_Components_SpriteSheetComponent_Update_SharpEngine_GameTime_
@@ -1727,18 +1884,6 @@ references:
   commentId: F:SharpEngine.Components.TileMapComponent.infinite
   fullName: SharpEngine.Components.TileMapComponent.infinite
   nameWithType: TileMapComponent.infinite
-- uid: SharpEngine.Components.TileMapComponent.Layer
-  name: TileMapComponent.Layer
-  href: api/SharpEngine.Components.TileMapComponent.Layer.html
-  commentId: T:SharpEngine.Components.TileMapComponent.Layer
-  fullName: SharpEngine.Components.TileMapComponent.Layer
-  nameWithType: TileMapComponent.Layer
-- uid: SharpEngine.Components.TileMapComponent.Layer.tiles
-  name: tiles
-  href: api/SharpEngine.Components.TileMapComponent.Layer.html#SharpEngine_Components_TileMapComponent_Layer_tiles
-  commentId: F:SharpEngine.Components.TileMapComponent.Layer.tiles
-  fullName: SharpEngine.Components.TileMapComponent.Layer.tiles
-  nameWithType: TileMapComponent.Layer.tiles
 - uid: SharpEngine.Components.TileMapComponent.layers
   name: layers
   href: api/SharpEngine.Components.TileMapComponent.html#SharpEngine_Components_TileMapComponent_layers
@@ -1769,24 +1914,6 @@ references:
   commentId: F:SharpEngine.Components.TileMapComponent.textures
   fullName: SharpEngine.Components.TileMapComponent.textures
   nameWithType: TileMapComponent.textures
-- uid: SharpEngine.Components.TileMapComponent.Tile
-  name: TileMapComponent.Tile
-  href: api/SharpEngine.Components.TileMapComponent.Tile.html
-  commentId: T:SharpEngine.Components.TileMapComponent.Tile
-  fullName: SharpEngine.Components.TileMapComponent.Tile
-  nameWithType: TileMapComponent.Tile
-- uid: SharpEngine.Components.TileMapComponent.Tile.id
-  name: id
-  href: api/SharpEngine.Components.TileMapComponent.Tile.html#SharpEngine_Components_TileMapComponent_Tile_id
-  commentId: F:SharpEngine.Components.TileMapComponent.Tile.id
-  fullName: SharpEngine.Components.TileMapComponent.Tile.id
-  nameWithType: TileMapComponent.Tile.id
-- uid: SharpEngine.Components.TileMapComponent.Tile.source
-  name: source
-  href: api/SharpEngine.Components.TileMapComponent.Tile.html#SharpEngine_Components_TileMapComponent_Tile_source
-  commentId: F:SharpEngine.Components.TileMapComponent.Tile.source
-  fullName: SharpEngine.Components.TileMapComponent.Tile.source
-  nameWithType: TileMapComponent.Tile.source
 - uid: SharpEngine.Components.TileMapComponent.tiles
   name: tiles
   href: api/SharpEngine.Components.TileMapComponent.html#SharpEngine_Components_TileMapComponent_tiles
@@ -2198,6 +2325,30 @@ references:
   isSpec: "True"
   fullName: SharpEngine.FontManager.GetFont
   nameWithType: FontManager.GetFont
+- uid: SharpEngine.FullScreenType
+  name: FullScreenType
+  href: api/SharpEngine.FullScreenType.html
+  commentId: T:SharpEngine.FullScreenType
+  fullName: SharpEngine.FullScreenType
+  nameWithType: FullScreenType
+- uid: SharpEngine.FullScreenType.BORDERLESS_FULLSCREEN
+  name: BORDERLESS_FULLSCREEN
+  href: api/SharpEngine.FullScreenType.html#SharpEngine_FullScreenType_BORDERLESS_FULLSCREEN
+  commentId: F:SharpEngine.FullScreenType.BORDERLESS_FULLSCREEN
+  fullName: SharpEngine.FullScreenType.BORDERLESS_FULLSCREEN
+  nameWithType: FullScreenType.BORDERLESS_FULLSCREEN
+- uid: SharpEngine.FullScreenType.HARDWARE_FULLSCREEN
+  name: HARDWARE_FULLSCREEN
+  href: api/SharpEngine.FullScreenType.html#SharpEngine_FullScreenType_HARDWARE_FULLSCREEN
+  commentId: F:SharpEngine.FullScreenType.HARDWARE_FULLSCREEN
+  fullName: SharpEngine.FullScreenType.HARDWARE_FULLSCREEN
+  nameWithType: FullScreenType.HARDWARE_FULLSCREEN
+- uid: SharpEngine.FullScreenType.NO_FULLSCREEN
+  name: NO_FULLSCREEN
+  href: api/SharpEngine.FullScreenType.html#SharpEngine_FullScreenType_NO_FULLSCREEN
+  commentId: F:SharpEngine.FullScreenType.NO_FULLSCREEN
+  fullName: SharpEngine.FullScreenType.NO_FULLSCREEN
+  nameWithType: FullScreenType.NO_FULLSCREEN
 - uid: SharpEngine.GameTime
   name: GameTime
   href: api/SharpEngine.GameTime.html
@@ -3542,6 +3693,143 @@ references:
   isSpec: "True"
   fullName: SharpEngine.InternalGame.Update
   nameWithType: InternalGame.Update
+- uid: SharpEngine.Math
+  name: Math
+  href: api/SharpEngine.Math.html
+  commentId: T:SharpEngine.Math
+  fullName: SharpEngine.Math
+  nameWithType: Math
+- uid: SharpEngine.Math.Clamp(System.Int32,System.Int32,System.Int32)
+  name: Clamp(Int32, Int32, Int32)
+  href: api/SharpEngine.Math.html#SharpEngine_Math_Clamp_System_Int32_System_Int32_System_Int32_
+  commentId: M:SharpEngine.Math.Clamp(System.Int32,System.Int32,System.Int32)
+  fullName: SharpEngine.Math.Clamp(System.Int32, System.Int32, System.Int32)
+  nameWithType: Math.Clamp(Int32, Int32, Int32)
+- uid: SharpEngine.Math.Clamp(System.Single,System.Single,System.Single)
+  name: Clamp(Single, Single, Single)
+  href: api/SharpEngine.Math.html#SharpEngine_Math_Clamp_System_Single_System_Single_System_Single_
+  commentId: M:SharpEngine.Math.Clamp(System.Single,System.Single,System.Single)
+  fullName: SharpEngine.Math.Clamp(System.Single, System.Single, System.Single)
+  nameWithType: Math.Clamp(Single, Single, Single)
+- uid: SharpEngine.Math.Clamp*
+  name: Clamp
+  href: api/SharpEngine.Math.html#SharpEngine_Math_Clamp_
+  commentId: Overload:SharpEngine.Math.Clamp
+  isSpec: "True"
+  fullName: SharpEngine.Math.Clamp
+  nameWithType: Math.Clamp
+- uid: SharpEngine.Math.Distance(System.Int32,System.Int32)
+  name: Distance(Int32, Int32)
+  href: api/SharpEngine.Math.html#SharpEngine_Math_Distance_System_Int32_System_Int32_
+  commentId: M:SharpEngine.Math.Distance(System.Int32,System.Int32)
+  fullName: SharpEngine.Math.Distance(System.Int32, System.Int32)
+  nameWithType: Math.Distance(Int32, Int32)
+- uid: SharpEngine.Math.Distance(System.Single,System.Single)
+  name: Distance(Single, Single)
+  href: api/SharpEngine.Math.html#SharpEngine_Math_Distance_System_Single_System_Single_
+  commentId: M:SharpEngine.Math.Distance(System.Single,System.Single)
+  fullName: SharpEngine.Math.Distance(System.Single, System.Single)
+  nameWithType: Math.Distance(Single, Single)
+- uid: SharpEngine.Math.Distance*
+  name: Distance
+  href: api/SharpEngine.Math.html#SharpEngine_Math_Distance_
+  commentId: Overload:SharpEngine.Math.Distance
+  isSpec: "True"
+  fullName: SharpEngine.Math.Distance
+  nameWithType: Math.Distance
+- uid: SharpEngine.Math.E
+  name: E
+  href: api/SharpEngine.Math.html#SharpEngine_Math_E
+  commentId: F:SharpEngine.Math.E
+  fullName: SharpEngine.Math.E
+  nameWithType: Math.E
+- uid: SharpEngine.Math.LOG10E
+  name: LOG10E
+  href: api/SharpEngine.Math.html#SharpEngine_Math_LOG10E
+  commentId: F:SharpEngine.Math.LOG10E
+  fullName: SharpEngine.Math.LOG10E
+  nameWithType: Math.LOG10E
+- uid: SharpEngine.Math.LOG2E
+  name: LOG2E
+  href: api/SharpEngine.Math.html#SharpEngine_Math_LOG2E
+  commentId: F:SharpEngine.Math.LOG2E
+  fullName: SharpEngine.Math.LOG2E
+  nameWithType: Math.LOG2E
+- uid: SharpEngine.Math.PI
+  name: PI
+  href: api/SharpEngine.Math.html#SharpEngine_Math_PI
+  commentId: F:SharpEngine.Math.PI
+  fullName: SharpEngine.Math.PI
+  nameWithType: Math.PI
+- uid: SharpEngine.Math.PIOVER2
+  name: PIOVER2
+  href: api/SharpEngine.Math.html#SharpEngine_Math_PIOVER2
+  commentId: F:SharpEngine.Math.PIOVER2
+  fullName: SharpEngine.Math.PIOVER2
+  nameWithType: Math.PIOVER2
+- uid: SharpEngine.Math.PIOVER4
+  name: PIOVER4
+  href: api/SharpEngine.Math.html#SharpEngine_Math_PIOVER4
+  commentId: F:SharpEngine.Math.PIOVER4
+  fullName: SharpEngine.Math.PIOVER4
+  nameWithType: Math.PIOVER4
+- uid: SharpEngine.Math.RandomBetween(System.Int32,System.Int32)
+  name: RandomBetween(Int32, Int32)
+  href: api/SharpEngine.Math.html#SharpEngine_Math_RandomBetween_System_Int32_System_Int32_
+  commentId: M:SharpEngine.Math.RandomBetween(System.Int32,System.Int32)
+  fullName: SharpEngine.Math.RandomBetween(System.Int32, System.Int32)
+  nameWithType: Math.RandomBetween(Int32, Int32)
+- uid: SharpEngine.Math.RandomBetween(System.Single,System.Single)
+  name: RandomBetween(Single, Single)
+  href: api/SharpEngine.Math.html#SharpEngine_Math_RandomBetween_System_Single_System_Single_
+  commentId: M:SharpEngine.Math.RandomBetween(System.Single,System.Single)
+  fullName: SharpEngine.Math.RandomBetween(System.Single, System.Single)
+  nameWithType: Math.RandomBetween(Single, Single)
+- uid: SharpEngine.Math.RandomBetween*
+  name: RandomBetween
+  href: api/SharpEngine.Math.html#SharpEngine_Math_RandomBetween_
+  commentId: Overload:SharpEngine.Math.RandomBetween
+  isSpec: "True"
+  fullName: SharpEngine.Math.RandomBetween
+  nameWithType: Math.RandomBetween
+- uid: SharpEngine.Math.TAU
+  name: TAU
+  href: api/SharpEngine.Math.html#SharpEngine_Math_TAU
+  commentId: F:SharpEngine.Math.TAU
+  fullName: SharpEngine.Math.TAU
+  nameWithType: Math.TAU
+- uid: SharpEngine.Math.ToDegrees(System.Single)
+  name: ToDegrees(Single)
+  href: api/SharpEngine.Math.html#SharpEngine_Math_ToDegrees_System_Single_
+  commentId: M:SharpEngine.Math.ToDegrees(System.Single)
+  fullName: SharpEngine.Math.ToDegrees(System.Single)
+  nameWithType: Math.ToDegrees(Single)
+- uid: SharpEngine.Math.ToDegrees*
+  name: ToDegrees
+  href: api/SharpEngine.Math.html#SharpEngine_Math_ToDegrees_
+  commentId: Overload:SharpEngine.Math.ToDegrees
+  isSpec: "True"
+  fullName: SharpEngine.Math.ToDegrees
+  nameWithType: Math.ToDegrees
+- uid: SharpEngine.Math.ToRadians(System.Single)
+  name: ToRadians(Single)
+  href: api/SharpEngine.Math.html#SharpEngine_Math_ToRadians_System_Single_
+  commentId: M:SharpEngine.Math.ToRadians(System.Single)
+  fullName: SharpEngine.Math.ToRadians(System.Single)
+  nameWithType: Math.ToRadians(Single)
+- uid: SharpEngine.Math.ToRadians*
+  name: ToRadians
+  href: api/SharpEngine.Math.html#SharpEngine_Math_ToRadians_
+  commentId: Overload:SharpEngine.Math.ToRadians
+  isSpec: "True"
+  fullName: SharpEngine.Math.ToRadians
+  nameWithType: Math.ToRadians
+- uid: SharpEngine.Math.TWOPI
+  name: TWOPI
+  href: api/SharpEngine.Math.html#SharpEngine_Math_TWOPI
+  commentId: F:SharpEngine.Math.TWOPI
+  fullName: SharpEngine.Math.TWOPI
+  nameWithType: Math.TWOPI
 - uid: SharpEngine.MusicManager
   name: MusicManager
   href: api/SharpEngine.MusicManager.html
@@ -4166,6 +4454,443 @@ references:
   isSpec: "True"
   fullName: SharpEngine.TextureManager.GetTexture
   nameWithType: TextureManager.GetTexture
+- uid: SharpEngine.Utils
+  name: SharpEngine.Utils
+  href: api/SharpEngine.Utils.html
+  commentId: N:SharpEngine.Utils
+  fullName: SharpEngine.Utils
+  nameWithType: SharpEngine.Utils
+- uid: SharpEngine.Utils.ParticleUtils
+  name: ParticleUtils
+  href: api/SharpEngine.Utils.ParticleUtils.html
+  commentId: T:SharpEngine.Utils.ParticleUtils
+  fullName: SharpEngine.Utils.ParticleUtils
+  nameWithType: ParticleUtils
+- uid: SharpEngine.Utils.ParticleUtils.Particle
+  name: ParticleUtils.Particle
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html
+  commentId: T:SharpEngine.Utils.ParticleUtils.Particle
+  fullName: SharpEngine.Utils.ParticleUtils.Particle
+  nameWithType: ParticleUtils.Particle
+- uid: SharpEngine.Utils.ParticleUtils.Particle.#ctor(SharpEngine.Vec2,SharpEngine.Vec2,SharpEngine.Vec2,System.Single,System.Single,System.Single,System.Single,SharpEngine.Color,SharpEngine.Color,SharpEngine.Utils.ParticleUtils.ParticleParametersFunction,System.Single)
+  name: Particle(Vec2, Vec2, Vec2, Single, Single, Single, Single, Color, Color, ParticleUtils.ParticleParametersFunction, Single)
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle__ctor_SharpEngine_Vec2_SharpEngine_Vec2_SharpEngine_Vec2_System_Single_System_Single_System_Single_System_Single_SharpEngine_Color_SharpEngine_Color_SharpEngine_Utils_ParticleUtils_ParticleParametersFunction_System_Single_
+  commentId: M:SharpEngine.Utils.ParticleUtils.Particle.#ctor(SharpEngine.Vec2,SharpEngine.Vec2,SharpEngine.Vec2,System.Single,System.Single,System.Single,System.Single,SharpEngine.Color,SharpEngine.Color,SharpEngine.Utils.ParticleUtils.ParticleParametersFunction,System.Single)
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.Particle(SharpEngine.Vec2, SharpEngine.Vec2, SharpEngine.Vec2, System.Single, System.Single, System.Single, System.Single, SharpEngine.Color, SharpEngine.Color, SharpEngine.Utils.ParticleUtils.ParticleParametersFunction, System.Single)
+  nameWithType: ParticleUtils.Particle.Particle(Vec2, Vec2, Vec2, Single, Single, Single, Single, Color, Color, ParticleUtils.ParticleParametersFunction, Single)
+- uid: SharpEngine.Utils.ParticleUtils.Particle.#ctor*
+  name: Particle
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle__ctor_
+  commentId: Overload:SharpEngine.Utils.ParticleUtils.Particle.#ctor
+  isSpec: "True"
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.Particle
+  nameWithType: ParticleUtils.Particle.Particle
+- uid: SharpEngine.Utils.ParticleUtils.Particle.acceleration
+  name: acceleration
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_acceleration
+  commentId: F:SharpEngine.Utils.ParticleUtils.Particle.acceleration
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.acceleration
+  nameWithType: ParticleUtils.Particle.acceleration
+- uid: SharpEngine.Utils.ParticleUtils.Particle.beginColor
+  name: beginColor
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_beginColor
+  commentId: F:SharpEngine.Utils.ParticleUtils.Particle.beginColor
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.beginColor
+  nameWithType: ParticleUtils.Particle.beginColor
+- uid: SharpEngine.Utils.ParticleUtils.Particle.currentColor
+  name: currentColor
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_currentColor
+  commentId: F:SharpEngine.Utils.ParticleUtils.Particle.currentColor
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.currentColor
+  nameWithType: ParticleUtils.Particle.currentColor
+- uid: SharpEngine.Utils.ParticleUtils.Particle.Draw(SharpEngine.Window)
+  name: Draw(Window)
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_Draw_SharpEngine_Window_
+  commentId: M:SharpEngine.Utils.ParticleUtils.Particle.Draw(SharpEngine.Window)
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.Draw(SharpEngine.Window)
+  nameWithType: ParticleUtils.Particle.Draw(Window)
+- uid: SharpEngine.Utils.ParticleUtils.Particle.Draw*
+  name: Draw
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_Draw_
+  commentId: Overload:SharpEngine.Utils.ParticleUtils.Particle.Draw
+  isSpec: "True"
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.Draw
+  nameWithType: ParticleUtils.Particle.Draw
+- uid: SharpEngine.Utils.ParticleUtils.Particle.endColor
+  name: endColor
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_endColor
+  commentId: F:SharpEngine.Utils.ParticleUtils.Particle.endColor
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.endColor
+  nameWithType: ParticleUtils.Particle.endColor
+- uid: SharpEngine.Utils.ParticleUtils.Particle.lifetime
+  name: lifetime
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_lifetime
+  commentId: F:SharpEngine.Utils.ParticleUtils.Particle.lifetime
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.lifetime
+  nameWithType: ParticleUtils.Particle.lifetime
+- uid: SharpEngine.Utils.ParticleUtils.Particle.maxSize
+  name: maxSize
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_maxSize
+  commentId: F:SharpEngine.Utils.ParticleUtils.Particle.maxSize
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.maxSize
+  nameWithType: ParticleUtils.Particle.maxSize
+- uid: SharpEngine.Utils.ParticleUtils.Particle.position
+  name: position
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_position
+  commentId: F:SharpEngine.Utils.ParticleUtils.Particle.position
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.position
+  nameWithType: ParticleUtils.Particle.position
+- uid: SharpEngine.Utils.ParticleUtils.Particle.rotation
+  name: rotation
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_rotation
+  commentId: F:SharpEngine.Utils.ParticleUtils.Particle.rotation
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.rotation
+  nameWithType: ParticleUtils.Particle.rotation
+- uid: SharpEngine.Utils.ParticleUtils.Particle.rotationSpeed
+  name: rotationSpeed
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_rotationSpeed
+  commentId: F:SharpEngine.Utils.ParticleUtils.Particle.rotationSpeed
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.rotationSpeed
+  nameWithType: ParticleUtils.Particle.rotationSpeed
+- uid: SharpEngine.Utils.ParticleUtils.Particle.size
+  name: size
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_size
+  commentId: F:SharpEngine.Utils.ParticleUtils.Particle.size
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.size
+  nameWithType: ParticleUtils.Particle.size
+- uid: SharpEngine.Utils.ParticleUtils.Particle.sizeFunction
+  name: sizeFunction
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_sizeFunction
+  commentId: F:SharpEngine.Utils.ParticleUtils.Particle.sizeFunction
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.sizeFunction
+  nameWithType: ParticleUtils.Particle.sizeFunction
+- uid: SharpEngine.Utils.ParticleUtils.Particle.sizeFunctionValue
+  name: sizeFunctionValue
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_sizeFunctionValue
+  commentId: F:SharpEngine.Utils.ParticleUtils.Particle.sizeFunctionValue
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.sizeFunctionValue
+  nameWithType: ParticleUtils.Particle.sizeFunctionValue
+- uid: SharpEngine.Utils.ParticleUtils.Particle.timeSinceStart
+  name: timeSinceStart
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_timeSinceStart
+  commentId: F:SharpEngine.Utils.ParticleUtils.Particle.timeSinceStart
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.timeSinceStart
+  nameWithType: ParticleUtils.Particle.timeSinceStart
+- uid: SharpEngine.Utils.ParticleUtils.Particle.Update(SharpEngine.GameTime)
+  name: Update(GameTime)
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_Update_SharpEngine_GameTime_
+  commentId: M:SharpEngine.Utils.ParticleUtils.Particle.Update(SharpEngine.GameTime)
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.Update(SharpEngine.GameTime)
+  nameWithType: ParticleUtils.Particle.Update(GameTime)
+- uid: SharpEngine.Utils.ParticleUtils.Particle.Update*
+  name: Update
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_Update_
+  commentId: Overload:SharpEngine.Utils.ParticleUtils.Particle.Update
+  isSpec: "True"
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.Update
+  nameWithType: ParticleUtils.Particle.Update
+- uid: SharpEngine.Utils.ParticleUtils.Particle.velocity
+  name: velocity
+  href: api/SharpEngine.Utils.ParticleUtils.Particle.html#SharpEngine_Utils_ParticleUtils_Particle_velocity
+  commentId: F:SharpEngine.Utils.ParticleUtils.Particle.velocity
+  fullName: SharpEngine.Utils.ParticleUtils.Particle.velocity
+  nameWithType: ParticleUtils.Particle.velocity
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter
+  name: ParticleUtils.ParticleEmitter
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html
+  commentId: T:SharpEngine.Utils.ParticleUtils.ParticleEmitter
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter
+  nameWithType: ParticleUtils.ParticleEmitter
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.#ctor(SharpEngine.Color[],SharpEngine.Color[],SharpEngine.Vec2,SharpEngine.Vec2,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Int32,System.Int32,System.Int32,System.Boolean,SharpEngine.Utils.ParticleUtils.ParticleParametersFunction,System.Single)
+  name: ParticleEmitter(Color[], Color[], Vec2, Vec2, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Int32, Int32, Int32, Boolean, ParticleUtils.ParticleParametersFunction, Single)
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter__ctor_SharpEngine_Color___SharpEngine_Color___SharpEngine_Vec2_SharpEngine_Vec2_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Int32_System_Int32_System_Int32_System_Boolean_SharpEngine_Utils_ParticleUtils_ParticleParametersFunction_System_Single_
+  commentId: M:SharpEngine.Utils.ParticleUtils.ParticleEmitter.#ctor(SharpEngine.Color[],SharpEngine.Color[],SharpEngine.Vec2,SharpEngine.Vec2,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Int32,System.Int32,System.Int32,System.Boolean,SharpEngine.Utils.ParticleUtils.ParticleParametersFunction,System.Single)
+  name.vb: ParticleEmitter(Color(), Color(), Vec2, Vec2, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Int32, Int32, Int32, Boolean, ParticleUtils.ParticleParametersFunction, Single)
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.ParticleEmitter(SharpEngine.Color[], SharpEngine.Color[], SharpEngine.Vec2, SharpEngine.Vec2, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Int32, System.Int32, System.Int32, System.Boolean, SharpEngine.Utils.ParticleUtils.ParticleParametersFunction, System.Single)
+  fullName.vb: SharpEngine.Utils.ParticleUtils.ParticleEmitter.ParticleEmitter(SharpEngine.Color(), SharpEngine.Color(), SharpEngine.Vec2, SharpEngine.Vec2, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Int32, System.Int32, System.Int32, System.Boolean, SharpEngine.Utils.ParticleUtils.ParticleParametersFunction, System.Single)
+  nameWithType: ParticleUtils.ParticleEmitter.ParticleEmitter(Color[], Color[], Vec2, Vec2, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Int32, Int32, Int32, Boolean, ParticleUtils.ParticleParametersFunction, Single)
+  nameWithType.vb: ParticleUtils.ParticleEmitter.ParticleEmitter(Color(), Color(), Vec2, Vec2, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Int32, Int32, Int32, Boolean, ParticleUtils.ParticleParametersFunction, Single)
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.#ctor*
+  name: ParticleEmitter
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter__ctor_
+  commentId: Overload:SharpEngine.Utils.ParticleUtils.ParticleEmitter.#ctor
+  isSpec: "True"
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.ParticleEmitter
+  nameWithType: ParticleUtils.ParticleEmitter.ParticleEmitter
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.active
+  name: active
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_active
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.active
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.active
+  nameWithType: ParticleUtils.ParticleEmitter.active
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.beginColors
+  name: beginColors
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_beginColors
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.beginColors
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.beginColors
+  nameWithType: ParticleUtils.ParticleEmitter.beginColors
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.Draw(SharpEngine.Window)
+  name: Draw(Window)
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_Draw_SharpEngine_Window_
+  commentId: M:SharpEngine.Utils.ParticleUtils.ParticleEmitter.Draw(SharpEngine.Window)
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.Draw(SharpEngine.Window)
+  nameWithType: ParticleUtils.ParticleEmitter.Draw(Window)
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.Draw*
+  name: Draw
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_Draw_
+  commentId: Overload:SharpEngine.Utils.ParticleUtils.ParticleEmitter.Draw
+  isSpec: "True"
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.Draw
+  nameWithType: ParticleUtils.ParticleEmitter.Draw
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.endColors
+  name: endColors
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_endColors
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.endColors
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.endColors
+  nameWithType: ParticleUtils.ParticleEmitter.endColors
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.GetParticlesCount
+  name: GetParticlesCount()
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_GetParticlesCount
+  commentId: M:SharpEngine.Utils.ParticleUtils.ParticleEmitter.GetParticlesCount
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.GetParticlesCount()
+  nameWithType: ParticleUtils.ParticleEmitter.GetParticlesCount()
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.GetParticlesCount*
+  name: GetParticlesCount
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_GetParticlesCount_
+  commentId: Overload:SharpEngine.Utils.ParticleUtils.ParticleEmitter.GetParticlesCount
+  isSpec: "True"
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.GetParticlesCount
+  nameWithType: ParticleUtils.ParticleEmitter.GetParticlesCount
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxAcceleration
+  name: maxAcceleration
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_maxAcceleration
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxAcceleration
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxAcceleration
+  nameWithType: ParticleUtils.ParticleEmitter.maxAcceleration
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxDirection
+  name: maxDirection
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_maxDirection
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxDirection
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxDirection
+  nameWithType: ParticleUtils.ParticleEmitter.maxDirection
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxLifetime
+  name: maxLifetime
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_maxLifetime
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxLifetime
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxLifetime
+  nameWithType: ParticleUtils.ParticleEmitter.maxLifetime
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxNbParticlesPerSpawn
+  name: maxNbParticlesPerSpawn
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_maxNbParticlesPerSpawn
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxNbParticlesPerSpawn
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxNbParticlesPerSpawn
+  nameWithType: ParticleUtils.ParticleEmitter.maxNbParticlesPerSpawn
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxParticles
+  name: maxParticles
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_maxParticles
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxParticles
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxParticles
+  nameWithType: ParticleUtils.ParticleEmitter.maxParticles
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxRotation
+  name: maxRotation
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_maxRotation
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxRotation
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxRotation
+  nameWithType: ParticleUtils.ParticleEmitter.maxRotation
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxRotationSpeed
+  name: maxRotationSpeed
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_maxRotationSpeed
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxRotationSpeed
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxRotationSpeed
+  nameWithType: ParticleUtils.ParticleEmitter.maxRotationSpeed
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxSize
+  name: maxSize
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_maxSize
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxSize
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxSize
+  nameWithType: ParticleUtils.ParticleEmitter.maxSize
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxTimerBeforeSpawn
+  name: maxTimerBeforeSpawn
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_maxTimerBeforeSpawn
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxTimerBeforeSpawn
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxTimerBeforeSpawn
+  nameWithType: ParticleUtils.ParticleEmitter.maxTimerBeforeSpawn
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxVelocity
+  name: maxVelocity
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_maxVelocity
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxVelocity
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.maxVelocity
+  nameWithType: ParticleUtils.ParticleEmitter.maxVelocity
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minAcceleration
+  name: minAcceleration
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_minAcceleration
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.minAcceleration
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minAcceleration
+  nameWithType: ParticleUtils.ParticleEmitter.minAcceleration
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minDirection
+  name: minDirection
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_minDirection
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.minDirection
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minDirection
+  nameWithType: ParticleUtils.ParticleEmitter.minDirection
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minLifetime
+  name: minLifetime
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_minLifetime
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.minLifetime
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minLifetime
+  nameWithType: ParticleUtils.ParticleEmitter.minLifetime
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minNbParticlesPerSpawn
+  name: minNbParticlesPerSpawn
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_minNbParticlesPerSpawn
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.minNbParticlesPerSpawn
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minNbParticlesPerSpawn
+  nameWithType: ParticleUtils.ParticleEmitter.minNbParticlesPerSpawn
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minRotation
+  name: minRotation
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_minRotation
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.minRotation
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minRotation
+  nameWithType: ParticleUtils.ParticleEmitter.minRotation
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minRotationSpeed
+  name: minRotationSpeed
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_minRotationSpeed
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.minRotationSpeed
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minRotationSpeed
+  nameWithType: ParticleUtils.ParticleEmitter.minRotationSpeed
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minSize
+  name: minSize
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_minSize
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.minSize
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minSize
+  nameWithType: ParticleUtils.ParticleEmitter.minSize
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minTimerBeforeSpawn
+  name: minTimerBeforeSpawn
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_minTimerBeforeSpawn
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.minTimerBeforeSpawn
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minTimerBeforeSpawn
+  nameWithType: ParticleUtils.ParticleEmitter.minTimerBeforeSpawn
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minVelocity
+  name: minVelocity
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_minVelocity
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.minVelocity
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.minVelocity
+  nameWithType: ParticleUtils.ParticleEmitter.minVelocity
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.offset
+  name: offset
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_offset
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.offset
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.offset
+  nameWithType: ParticleUtils.ParticleEmitter.offset
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.particles
+  name: particles
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_particles
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.particles
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.particles
+  nameWithType: ParticleUtils.ParticleEmitter.particles
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.sizeFunction
+  name: sizeFunction
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_sizeFunction
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.sizeFunction
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.sizeFunction
+  nameWithType: ParticleUtils.ParticleEmitter.sizeFunction
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.sizeFunctionValue
+  name: sizeFunctionValue
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_sizeFunctionValue
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.sizeFunctionValue
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.sizeFunctionValue
+  nameWithType: ParticleUtils.ParticleEmitter.sizeFunctionValue
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.SpawnParticle(SharpEngine.Vec2)
+  name: SpawnParticle(Vec2)
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_SpawnParticle_SharpEngine_Vec2_
+  commentId: M:SharpEngine.Utils.ParticleUtils.ParticleEmitter.SpawnParticle(SharpEngine.Vec2)
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.SpawnParticle(SharpEngine.Vec2)
+  nameWithType: ParticleUtils.ParticleEmitter.SpawnParticle(Vec2)
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.SpawnParticle*
+  name: SpawnParticle
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_SpawnParticle_
+  commentId: Overload:SharpEngine.Utils.ParticleUtils.ParticleEmitter.SpawnParticle
+  isSpec: "True"
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.SpawnParticle
+  nameWithType: ParticleUtils.ParticleEmitter.SpawnParticle
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.spawnSize
+  name: spawnSize
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_spawnSize
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleEmitter.spawnSize
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.spawnSize
+  nameWithType: ParticleUtils.ParticleEmitter.spawnSize
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.Update(SharpEngine.GameTime,SharpEngine.Vec2)
+  name: Update(GameTime, Vec2)
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_Update_SharpEngine_GameTime_SharpEngine_Vec2_
+  commentId: M:SharpEngine.Utils.ParticleUtils.ParticleEmitter.Update(SharpEngine.GameTime,SharpEngine.Vec2)
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.Update(SharpEngine.GameTime, SharpEngine.Vec2)
+  nameWithType: ParticleUtils.ParticleEmitter.Update(GameTime, Vec2)
+- uid: SharpEngine.Utils.ParticleUtils.ParticleEmitter.Update*
+  name: Update
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleEmitter.html#SharpEngine_Utils_ParticleUtils_ParticleEmitter_Update_
+  commentId: Overload:SharpEngine.Utils.ParticleUtils.ParticleEmitter.Update
+  isSpec: "True"
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleEmitter.Update
+  nameWithType: ParticleUtils.ParticleEmitter.Update
+- uid: SharpEngine.Utils.ParticleUtils.ParticleParametersFunction
+  name: ParticleUtils.ParticleParametersFunction
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.html
+  commentId: T:SharpEngine.Utils.ParticleUtils.ParticleParametersFunction
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleParametersFunction
+  nameWithType: ParticleUtils.ParticleParametersFunction
+- uid: SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.DECREASE
+  name: DECREASE
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.html#SharpEngine_Utils_ParticleUtils_ParticleParametersFunction_DECREASE
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.DECREASE
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.DECREASE
+  nameWithType: ParticleUtils.ParticleParametersFunction.DECREASE
+- uid: SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.INCREASE
+  name: INCREASE
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.html#SharpEngine_Utils_ParticleUtils_ParticleParametersFunction_INCREASE
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.INCREASE
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.INCREASE
+  nameWithType: ParticleUtils.ParticleParametersFunction.INCREASE
+- uid: SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.NORMAL
+  name: NORMAL
+  href: api/SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.html#SharpEngine_Utils_ParticleUtils_ParticleParametersFunction_NORMAL
+  commentId: F:SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.NORMAL
+  fullName: SharpEngine.Utils.ParticleUtils.ParticleParametersFunction.NORMAL
+  nameWithType: ParticleUtils.ParticleParametersFunction.NORMAL
+- uid: SharpEngine.Utils.TileUtils
+  name: TileUtils
+  href: api/SharpEngine.Utils.TileUtils.html
+  commentId: T:SharpEngine.Utils.TileUtils
+  fullName: SharpEngine.Utils.TileUtils
+  nameWithType: TileUtils
+- uid: SharpEngine.Utils.TileUtils.Layer
+  name: TileUtils.Layer
+  href: api/SharpEngine.Utils.TileUtils.Layer.html
+  commentId: T:SharpEngine.Utils.TileUtils.Layer
+  fullName: SharpEngine.Utils.TileUtils.Layer
+  nameWithType: TileUtils.Layer
+- uid: SharpEngine.Utils.TileUtils.Layer.tiles
+  name: tiles
+  href: api/SharpEngine.Utils.TileUtils.Layer.html#SharpEngine_Utils_TileUtils_Layer_tiles
+  commentId: F:SharpEngine.Utils.TileUtils.Layer.tiles
+  fullName: SharpEngine.Utils.TileUtils.Layer.tiles
+  nameWithType: TileUtils.Layer.tiles
+- uid: SharpEngine.Utils.TileUtils.Tile
+  name: TileUtils.Tile
+  href: api/SharpEngine.Utils.TileUtils.Tile.html
+  commentId: T:SharpEngine.Utils.TileUtils.Tile
+  fullName: SharpEngine.Utils.TileUtils.Tile
+  nameWithType: TileUtils.Tile
+- uid: SharpEngine.Utils.TileUtils.Tile.id
+  name: id
+  href: api/SharpEngine.Utils.TileUtils.Tile.html#SharpEngine_Utils_TileUtils_Tile_id
+  commentId: F:SharpEngine.Utils.TileUtils.Tile.id
+  fullName: SharpEngine.Utils.TileUtils.Tile.id
+  nameWithType: TileUtils.Tile.id
+- uid: SharpEngine.Utils.TileUtils.Tile.source
+  name: source
+  href: api/SharpEngine.Utils.TileUtils.Tile.html#SharpEngine_Utils_TileUtils_Tile_source
+  commentId: F:SharpEngine.Utils.TileUtils.Tile.source
+  fullName: SharpEngine.Utils.TileUtils.Tile.source
+  nameWithType: TileUtils.Tile.source
 - uid: SharpEngine.Vec2
   name: Vec2
   href: api/SharpEngine.Vec2.html
@@ -4390,6 +5115,19 @@ references:
   isSpec: "True"
   fullName: SharpEngine.Vec2.UnaryNegation
   nameWithType: Vec2.UnaryNegation
+- uid: SharpEngine.Vec2.ToAetherPhysics
+  name: ToAetherPhysics()
+  href: api/SharpEngine.Vec2.html#SharpEngine_Vec2_ToAetherPhysics
+  commentId: M:SharpEngine.Vec2.ToAetherPhysics
+  fullName: SharpEngine.Vec2.ToAetherPhysics()
+  nameWithType: Vec2.ToAetherPhysics()
+- uid: SharpEngine.Vec2.ToAetherPhysics*
+  name: ToAetherPhysics
+  href: api/SharpEngine.Vec2.html#SharpEngine_Vec2_ToAetherPhysics_
+  commentId: Overload:SharpEngine.Vec2.ToAetherPhysics
+  isSpec: "True"
+  fullName: SharpEngine.Vec2.ToAetherPhysics
+  nameWithType: Vec2.ToAetherPhysics
 - uid: SharpEngine.Vec2.ToMG
   name: ToMG()
   href: api/SharpEngine.Vec2.html#SharpEngine_Vec2_ToMG
@@ -5138,12 +5876,12 @@ references:
   commentId: T:SharpEngine.Window
   fullName: SharpEngine.Window
   nameWithType: Window
-- uid: SharpEngine.Window.#ctor(SharpEngine.Vec2,SharpEngine.Color,System.Boolean,System.Boolean)
-  name: Window(Vec2, Color, Boolean, Boolean)
-  href: api/SharpEngine.Window.html#SharpEngine_Window__ctor_SharpEngine_Vec2_SharpEngine_Color_System_Boolean_System_Boolean_
-  commentId: M:SharpEngine.Window.#ctor(SharpEngine.Vec2,SharpEngine.Color,System.Boolean,System.Boolean)
-  fullName: SharpEngine.Window.Window(SharpEngine.Vec2, SharpEngine.Color, System.Boolean, System.Boolean)
-  nameWithType: Window.Window(Vec2, Color, Boolean, Boolean)
+- uid: SharpEngine.Window.#ctor(SharpEngine.Vec2,SharpEngine.Color,System.Boolean,System.Boolean,SharpEngine.FullScreenType)
+  name: Window(Vec2, Color, Boolean, Boolean, FullScreenType)
+  href: api/SharpEngine.Window.html#SharpEngine_Window__ctor_SharpEngine_Vec2_SharpEngine_Color_System_Boolean_System_Boolean_SharpEngine_FullScreenType_
+  commentId: M:SharpEngine.Window.#ctor(SharpEngine.Vec2,SharpEngine.Color,System.Boolean,System.Boolean,SharpEngine.FullScreenType)
+  fullName: SharpEngine.Window.Window(SharpEngine.Vec2, SharpEngine.Color, System.Boolean, System.Boolean, SharpEngine.FullScreenType)
+  nameWithType: Window.Window(Vec2, Color, Boolean, Boolean, FullScreenType)
 - uid: SharpEngine.Window.#ctor*
   name: Window
   href: api/SharpEngine.Window.html#SharpEngine_Window__ctor_
@@ -5182,6 +5920,19 @@ references:
   commentId: F:SharpEngine.Window.fontManager
   fullName: SharpEngine.Window.fontManager
   nameWithType: Window.fontManager
+- uid: SharpEngine.Window.fullscreen
+  name: fullscreen
+  href: api/SharpEngine.Window.html#SharpEngine_Window_fullscreen
+  commentId: P:SharpEngine.Window.fullscreen
+  fullName: SharpEngine.Window.fullscreen
+  nameWithType: Window.fullscreen
+- uid: SharpEngine.Window.fullscreen*
+  name: fullscreen
+  href: api/SharpEngine.Window.html#SharpEngine_Window_fullscreen_
+  commentId: Overload:SharpEngine.Window.fullscreen
+  isSpec: "True"
+  fullName: SharpEngine.Window.fullscreen
+  nameWithType: Window.fullscreen
 - uid: SharpEngine.Window.GetCurrentScene
   name: GetCurrentScene()
   href: api/SharpEngine.Window.html#SharpEngine_Window_GetCurrentScene
